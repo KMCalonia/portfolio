@@ -98,13 +98,13 @@ nav a:hover{
     width:300px;
     height:300px;
     object-fit:cover;
-    border-radius:50%;
-    border:4px solid #38bdf8;
 
+    border-radius:0; /* square */
+
+    border:4px solid #38bdf8;
     box-shadow:0 0 30px rgba(56,189,248,.35);
     transition:.4s;
 }
-
 /* 🔥 IMAGE HOVER */
 .hero-image img:hover{
     transform:scale(1.05);
